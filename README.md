@@ -77,10 +77,16 @@ Login with username : $${\color{red}admin}$$ and password  : $${\color{red}admin
 
 ![Grafana HomePage](grafana-home.png)
 
+While creating Data Soruce in Grafana make sure to give your Prometheus server pub-ip:9090 in Prometheus server URL
+
 ![Grafana DataSource](grafana-data_source.png)
 
 ![Grafana Dashboard](grafana-dashboard.png)
 
+You can import Different dashboards from [here](https://grafana.com/grafana/dashboards/)
+
+After that copy the ID of the Dashboard. Open the Import section from Dashboard and paste it in the dashboard id box.
+![Grafana Dashboard](grafana-dashboard-2.png)
 
 
 ##  Conclusion:

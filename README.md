@@ -56,7 +56,7 @@ sudo systemctl restart prometheus
 sudo systemctl status prometheus
 ```
 
-![Architecture diagram](architecture.excalidraw.png)
+![Prometheus with Node Exporter](prometheus-node-export.png)
 
 ##  Install Grafana
 
@@ -71,15 +71,16 @@ Make sure that port 3000 is open for this instance.
 ```shell
 http://yourip:3000
 ```
-Login with username : $${\color{red}admin}$$ and password $${\color{red}admin}$$
+Login with username : $${\color{red}admin}$$ and password  : $${\color{red}admin}$$
 
-![Architecture diagram](architecture.excalidraw.png)
+![Grafana WelcomePage](grafana-welcome.png)
 
-![Architecture diagram](architecture.excalidraw.png)
+![Grafana HomePage](grafana-home.png)
 
-![Architecture diagram](architecture.excalidraw.png)
+![Grafana DataSource](grafana-data_source.png)
 
-![Architecture diagram](architecture.excalidraw.png)
+![Grafana Dashboard](grafana-dashboard.png)
+
 
 
 ##  Conclusion:
